@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEDGO SAC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="hero">
+    <nav class="navbar">
+        <h2 class="logo">NEDGO S.A.C.</h2>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero-texto">
+        <div class="titulo-con-paloma">
+    <img src="imag/paloma.gif" class="paloma">
+    <h1>NEDGO SAC</h1>
+</div>
+        <p>Venta de productos de calidad al por mayor y menor</p>
+        <a href="#productos" class="btn-principal">Ver productos</a>
+    </div>
+</header>
+
+<section class="seccion-productos">
+    <h2 class="titulo">Nuestros Productos</h2>
+    <p class="subtitulo">Elige un producto y realiza tu pedido por WhatsApp</p>
+
+    <div class="contenedor" id="productos"></div>
+</section>
+
+<div id="modal" class="modal">
+    <span class="cerrar" onclick="cerrarModal()">&times;</span>
+    <img class="modal-contenido" id="modal-imagen">
+</div>
+
+<footer id="contacto">
+    <h3>NEDGO SAC</h3>
+    <p>Atención rápida por WhatsApp</p>
+    <p>© 2026 Todos los derechos reservados</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
